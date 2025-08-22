@@ -1,0 +1,14 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;                   /* White arrow */
+  background: #111;              /* Black background */
+  border-radius: 80%;            /* Circular button */
+  width: 70px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  outline: none;
+  border: none;
+}
