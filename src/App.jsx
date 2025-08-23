@@ -7,6 +7,9 @@ import Carousel from './components/Carousel'
 import HolidayCategory from './components/HolidayCategory'
 import TourCardsSection from './components/TourCardsSection'
 import PopularDestinations from './components/PopularDestination'
+import TravelBlogs from './components/TravelBlogs'
+import Footer from './components/Footer'
+import ChatButton from './components/ChatButton'
 
 function App() {
 
@@ -17,6 +20,9 @@ function App() {
     <HolidayCategory/>
     <TourCardsSection/>
     <PopularDestinations/>
+    <TravelBlogs/>
+    <Footer/>
+    <ChatButton/>
     </>
   )
 }
