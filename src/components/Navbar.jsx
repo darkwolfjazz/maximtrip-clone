@@ -5,10 +5,10 @@ import { Link } from "react-router";
 
 const Navbar = () => {
 const words = [
-    'Search "Kashmir Group Tour Package"',
-    'Search "Shimla Manali Packages"',
-    'Search "Goa Honeymoon Trip"',
-    'Search "Ladakh Adventure Tour"'
+    'Search "Kashmir Honeymoon Packages"',
+    'Search "Kashmir Family Tour Packages"',
+    'Search "Leh Laddakh Tour Packages"',
+    'Search "Kashmir Group Tour Packages"'
   ];
 
   const [placeholder, setPlaceholder] = useState("");
@@ -39,15 +39,15 @@ const words = [
   }, [charIndex, isDeleting, wordIndex]);
 
   return (
-    <nav className="w-full sticky  top-0 z-50 bg-white shadow-md">
+    <nav className="w-full sticky  top-0 z-50 bg-white shadow-md ">
       <div className="xl:container max-w-7xl mx-auto flex items-center justify-between px-4 py-2 md:py-3">
         
-        {/* Logo */}
+       
         <Link to="/holidays" className="flex-shrink-0">
-          <img src={logo} alt="Maximtrip Logo" className="h-9 md:h-16" />
+          <img src={logo} alt="Maximtrip Logo" className="h-12 md:h-20" />
         </Link>
 
-        {/* Search Bar */}
+      
         <div className="flex w-[180px]   items-center border border-gray-300 rounded sm:rounded-md px-3 py-2 sm:py-3 flex-1 mx-4 md:w-full">
           <FiSearch className="text-gray-500 mr-2 text-[13px] sm:text-[20px]" />
           <input
@@ -57,7 +57,7 @@ const words = [
           />
         </div>
 
-        {/* Right Section */}
+        
         <div className="hidden lg:flex items-center gap-6">
           <div className="flex items-center text-gray-700">
             <FiPhone className="mr-2" /> <span className="text-xs">+91-979996205</span>

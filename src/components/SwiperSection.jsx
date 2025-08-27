@@ -14,7 +14,7 @@ const SwiperSection = ({ data, prev, next, CartNameOne, CartNameTwo ,CardCompone
     <>
     <div className={`relative w-full  bg-gray-5${BgColor}`}>
 
-       {/* Heading json se le rahe hain */}
+      
        <div className="mb-10 pt-2 max-w-7xl  mx-auto px-5">
         <span className="relative text-red-600 font-bold text-3xl">
            {CartNameOne}
@@ -33,7 +33,7 @@ const SwiperSection = ({ data, prev, next, CartNameOne, CartNameTwo ,CardCompone
        
       </div>
 
-       {/* Swiper Container */}
+       
       <div className="max-w-7xl mx-auto pt-5 px-5 relative">
         <Swiper
           autoplay={{delay:`${SpeedSwip}`}}
@@ -56,7 +56,7 @@ const SwiperSection = ({ data, prev, next, CartNameOne, CartNameTwo ,CardCompone
           ))}
         </Swiper>
 
-         {/* Arrows */}
+       
         <button
           className={`${prev} absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow p-2 rounded-full text-black/50`}
         >

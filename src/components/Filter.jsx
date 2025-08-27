@@ -11,11 +11,11 @@ export default function ({data }) {
         <div className="min-h-screen bg-gray-50 px-3 py-8">
             <div className="max-w-7xl mx-auto ">
                 <div className="lg:flex gap-8">
-                    {/* Filter */}
+                  
                     <div className="w-full lg:w-80 bg-white p-6 rounded-lg shadow-sm border mb-6 lg:mb-0">
                         <h2 className="text-xl font-semibold mb-6">Filters</h2>
                         
-                        {/* Price Range */}
+                        
                         <div className="mb-8">
                             <h3 className="text-lg font-medium mb-4">Price Range</h3>
                             <div className="flex justify-between items-center mb-3">
@@ -35,7 +35,7 @@ export default function ({data }) {
                             <p className="text-xs text-gray-500 mt-2">Approx price per person</p>
                         </div>
 
-                        {/* Duration */}
+                       
                         <div className="mb-8">
                             <h3 className="text-lg font-medium mb-4">Duration</h3>
                             <div className="space-y-3">
@@ -55,7 +55,7 @@ export default function ({data }) {
                             </div>
                         </div>
 
-                        {/* Hotel Star Rating */}
+                       
                         <div className="mb-8">
                             <h3 className="text-lg font-medium mb-4">Hotel Star Rating</h3>
                             <div className="space-y-3">
@@ -76,7 +76,7 @@ export default function ({data }) {
                             </div>
                         </div>
 
-                        {/* Route City */}
+                     
                         <div className="mb-8">
                             <h3 className="text-lg font-medium mb-4">Route City</h3>
                             <div className="space-y-3">
@@ -91,7 +91,7 @@ export default function ({data }) {
                             </div>
                         </div>
 
-                        {/* Location */}
+                      
                         <div>
                             <h3 className="text-lg font-medium mb-4">Location</h3>
                             <div className="space-y-3">
@@ -107,7 +107,7 @@ export default function ({data }) {
                         </div>
                     </div>
 
-                    {/* Cart/Products */}
+                  
                     <div className="flex-1">
                           <CartFilter />
                     </div>

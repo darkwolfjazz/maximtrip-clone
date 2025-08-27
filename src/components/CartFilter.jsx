@@ -20,7 +20,7 @@ export default function (){
                             {data?.map(item => (
                                 <div key={item.id} className="bg-white rounded-lg shadow-md overflow-hidden border hover:shadow-lg transition-shadow">
                                     <div className="flex flex-col md:flex-row">
-                                        {/* Image */}
+                                       
                                         <div className="md:w-1/3">
                                             <img 
                                                 src={item.image} 
@@ -29,7 +29,7 @@ export default function (){
                                             />
                                         </div>
                                         
-                                        {/* Content */}
+                                     
                                         <div className="md:w-2/3 p-6">
                                             <div className="flex justify-between items-start mb-4">
                                                 <div>
@@ -40,7 +40,7 @@ export default function (){
                                                         {item.location}
                                                     </div>
                                                     
-                                                    {/* Rating */}
+                                                  
                                                     <div className="flex items-center mb-4">
                                                         {Array.from({length: item.rating}, (_, i) => (
                                                             <span key={i} className="text-yellow-400 text-sm">★</span>
@@ -53,14 +53,14 @@ export default function (){
                                                     <div className="text-sm text-gray-600 mb-4">{item.route}</div>
                                                 </div>
                                                 
-                                                {/* Price */}
+                                            
                                                 <div className="text-right">
                                                     <div className="text-3xl font-bold text-gray-800">₹{item.price}</div>
                                                     <div className="text-sm text-gray-500">Per person</div>
                                                 </div>
                                             </div>
                                             
-                                            {/* Features */}
+                                          
                                             <div className="flex flex-wrap gap-4 mb-6">
                                                 {Features.map((feature, index) => (
                                                     <div key={index} className="flex flex-col items-center text-center">
@@ -72,7 +72,7 @@ export default function (){
                                                 ))}
                                             </div>
                                             
-                                            {/* Buttons */}
+                                         
                                             <div className="flex gap-3">
                                                 <button className="flex-1 bg-white border border-red-500 text-red-500 py-2 px-4 rounded text-sm font-medium hover:bg-red-50 transition-colors">
                                                     Select

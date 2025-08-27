@@ -34,7 +34,7 @@ export default function CartPackage ({item,idx ,openPopup}) {
             </div>
 
              <div className=" flex border border-red-600 my-5 ">
-                    <div className=" h-full py-2 border-r border-red-600 text-center w-1/2">{item.price} </div>
+                    <div className=" h-full py-2 border-r border-red-600 text-center w-1/2">Rs.{item.price} </div>
                     <div className=" h-full py-2 text-center w-1/2">
                         View
                     </div>
@@ -43,7 +43,7 @@ export default function CartPackage ({item,idx ,openPopup}) {
             <div className="flex items-center  gap-2"> 
                  <FiPhone size={41} className=" p-2   text-red-600 border-2 border-red-600  rounded-bl-xl " />
                 <button className="w-full bg-red-700 hover:bg-red-800 text-white py-2 rounded-lg font-medium text-base shadow rounded-br-xl"
-                 onClick={() => openPopup(item)} // Call parent to open popup
+                 onClick={() => openPopup(item)}
                 >
             Request Callback
           </button>

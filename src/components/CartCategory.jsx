@@ -10,7 +10,7 @@ export default function CartCategory({ item, idx, openPopup }) {
       key={idx}
       className="transition-all duration-300 hover:shadow-xl shadow-md rounded-xl bg-white transform hover:-translate-y-2"
     >
-      {/* Image Section */}
+   
       <div>
         <img
           src={item.image}
@@ -20,7 +20,7 @@ export default function CartCategory({ item, idx, openPopup }) {
         />
       </div>
 
-      {/* Bottom Content */}
+     
       <div className="p-4">
         <h3 className="font-semibold text-gray-800 text-lg mb-4">
           {item.headline}

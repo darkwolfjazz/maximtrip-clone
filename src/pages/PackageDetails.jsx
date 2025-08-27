@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router";
 import c from "../context/data.json";
-import EnquiryForm from "../components/EnquiryForm";  // 👈 import kiya
+import EnquiryForm from "../components/EnquiryForm";  
 import { useEffect } from "react";
 
 export default function ProductDetail() {
@@ -29,7 +29,7 @@ export default function ProductDetail() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto lg:flex lg:gap-8 lg:p-6">
-        {/* Left Side */}
+     
         <div className="lg:flex-1 bg-white shadow-md ">
           <div className="lg:rounded-xl m-5 rounded-xl overflow-hidden lg:mb-6">
             <img
@@ -44,7 +44,7 @@ export default function ProductDetail() {
               {product.title}
             </h1>
 
-            {/* Tabs */}
+        
             <div className="flex overflow-x-auto lg:overflow-visible pl-3 border-b mb-4 lg:mb-6">
               {tabs.map((tab, index) => (
                 <button
@@ -62,7 +62,7 @@ export default function ProductDetail() {
           </div>
         </div>
 
-        {/* Right Side Form */}
+      
         <div className="p-4 lg:p-0 lg:w-96">
           <EnquiryForm productTitle={product.title} />
         </div>

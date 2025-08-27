@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "title": "Kashmir Unplugged  Adventure",
+      "title": "Kashmir a Frozen dream vacation",
       "description": "Enjoy sunny beaches and vibrant nightlife in Goa.",
       "price": 12999,
       "location": "Kashmir",
@@ -9,12 +9,12 @@
       "day":5,
       "night":4,
       "duration": "5 Days / 4 Nights",
-      "image": "https://res.cloudinary.com/dr267iyg8/image/upload/v1751546477/maximtrip/cfhqx7thntqyr99oucjr.jpg"
+      "image": "https://res.cloudinary.com/dfkmffcej/image/upload/v1756276497/kashmir1_tgshgg.jpg"
       
     },
     {
       "id": 2,
-      "title": "Manali Adventure",
+      "title": "Colors of Kashmir",
       "description": "Experience the beauty of snow-capped mountains and valleys.",
       "price": 15999,
       "location": "Kashmir",
@@ -26,7 +26,7 @@
     },
     {
       "id": 3,
-      "title": "Kerala Backwaters",
+      "title": "Kashmir Escapes at Smart Price",
       "description": "Relax in houseboats and explore lush green landscapes.",
       "price": 18999,
       "location": "Kashmir",
@@ -51,7 +51,7 @@
     }
       ,{
       "id": 5,
-      "title": "Manali Adventure",
+      "title": "Kashmir Family Packages",
       "description": "Experience the beauty of snow-capped mountains and valleys.",
       "price": 15999,
       "location": "Kashmir",

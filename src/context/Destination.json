@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "title": "Kashmir Unplugged  Adventure",
+      "title": "Places to Visit in Srinagar",
       "description": "Enjoy sunny beaches and vibrant nightlife in Goa.",
       "price": 12999,
       "location": "Kashmir",
@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "title": "Manali Adventure",
+      "title": "Places to Visit in Pahalgam",
       "description": "Experience the beauty of snow-capped mountains and valleys.",
       "price": 15999,
       "location": "Kashmir",
@@ -26,7 +26,7 @@
     },
     {
       "id": 3,
-      "title": "Kerala Backwaters",
+      "title": "Places to Visit in Sonmarg",
       "description": "Relax in houseboats and explore lush green landscapes.",
       "price": 18999,
       "location": "Kashmir",
@@ -39,7 +39,7 @@
    
     {
       "id": 4,
-      "title": "Kashmir Paradise",
+      "title": "Places to Visit in Gulmarg",
       "description": "Snowy landscapes and beautiful gardens await you.",
       "price": 24999,
       "location": "Kashmir",
@@ -51,7 +51,7 @@
     }
       ,{
       "id": 5,
-      "title": "Manali Adventure",
+      "title": "Places to Visit in Leh Ladakh",
       "description": "Experience the beauty of snow-capped mountains and valleys.",
       "price": 15999,
       "location": "Kashmir",

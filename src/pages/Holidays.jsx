@@ -75,7 +75,7 @@ export default function Holidays() {
         SpeedSwip="4000"
       />
 
-      {/* Fixed Popup */}
+     
       {popupData && (
         <EnquiryPopup isOpen={!!popupData} onClose={closePopup} data={popupData} />
       )}

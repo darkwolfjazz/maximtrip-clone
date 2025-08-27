@@ -12,7 +12,7 @@ export default function Card({ item, idx }) {
       className="relative group rounded-xl overflow-hidden cursor-pointer "
     onClick = {()=> Navigate(`/destination/${item.id}`)}
     >
-      {/* Image and hover scale */}
+     
       <div className="transition-transform duration-700 group-hover:scale-110">
         <img
           src={item.image}
@@ -21,7 +21,7 @@ export default function Card({ item, idx }) {
           
         />
 
-        {/* Dark overlay on hover */}
+    
         <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-20 transition-opacity duration-500"></div>
 
      

@@ -45,8 +45,7 @@ useEffect(() => {
 }, [slide, isModalOpen]);
 
   return (
-    <div className="relative w-full mb-10 h-[90vh] md:h-[85vh] overflow-hidden  ">
-      {/* Carousel Items */}
+    <div className="relative w-full mb-10 h-[90vh] md:h-[85vh] overflow-hidden ">
       <div className="relative w-full h-full">
         {data.map((item, idx) => (
           <div
@@ -61,7 +60,6 @@ useEffect(() => {
               className="w-full h-full object-cover "
             />
             
-            {/* Text Overlay */}
 
                
             <div className="absolute  w-full  flex  flex-col  items-center justify-left md:text-center bottom-10   text-white z-9">
@@ -82,15 +80,13 @@ useEffect(() => {
                 {item.price && (
                   <span className="line-through opacity-80 ">₹{(item.price/2)}</span>
                 )}
-              </div>
-             
-              <button className="mt-4 z-9 bg-red-500 hidden md:block  px-4 py-2 md:px-6 md:py-3 rounded-lg font-semibold hover:bg-red-600  "
+              </div> 
+            <button className="mt-4 z-9 bg-red-500 hidden md:block  px-4 py-2 md:px-6 md:py-3 rounded-lg font-semibold hover:bg-red-600  "
                       onClick={openModal}
 
               >
                 Connect With Expert
               </button>
-               {/* Pass props to EnquiryPopup */}
               <EnquiryPopup isOpen={isModalOpen} onClose={closeModal} />
             </div>
                 </div>
@@ -99,7 +95,7 @@ useEffect(() => {
         ))}
       </div>
 
-      {/* Left Button */}
+     
     <button
   onClick={handlePrev}
   className="group absolute left-3 md:left-5 bg-black top-1/2 transform -translate-y-1/2 p-2 rounded-full z-10 flex items-center justify-center"
