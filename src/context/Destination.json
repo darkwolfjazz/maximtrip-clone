@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "title": "Kashmir Unplugged  Adventure",
+      "description": "Enjoy sunny beaches and vibrant nightlife in Goa.",
+      "price": 12999,
+      "location": "Kashmir",
+      "rating": 5,
+      "day":5,
+      "night":4,
+      "duration": "5 Days / 4 Nights",
+      "image": "https://res.cloudinary.com/dr267iyg8/image/upload/v1750936632/maximtrip/hfvmgaumtjiffyctztue.jpg"
+      
+    },
+    {
+      "id": 2,
+      "title": "Manali Adventure",
+      "description": "Experience the beauty of snow-capped mountains and valleys.",
+      "price": 15999,
+      "location": "Kashmir",
+      "rating": 4,
+       "day":6,
+      "night":5,
+       " duration": "6 Days / 5 Nights",
+      "image": "https://res.cloudinary.com/dr267iyg8/image/upload/v1750936487/maximtrip/hoegqzxenfbflnwqpvfy.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Kerala Backwaters",
+      "description": "Relax in houseboats and explore lush green landscapes.",
+      "price": 18999,
+      "location": "Kashmir",
+      "rating": 2,
+       "day":8,
+      "night":7,
+       " duration": "8 Days / 7 Nights",
+      "image": "https://res.cloudinary.com/dr267iyg8/image/upload/v1751546809/maximtrip/etg69mvhrt7m0nrajvnk.jpg"
+    },
+   
+    {
+      "id": 4,
+      "title": "Kashmir Paradise",
+      "description": "Snowy landscapes and beautiful gardens await you.",
+      "price": 24999,
+      "location": "Kashmir",
+      "rating": 3,
+       "day":3,
+      "night":2,
+       " duration": "3 Days / 2 Nights",
+      "image": "https://res.cloudinary.com/dr267iyg8/image/upload/v1750936581/maximtrip/gf2nyupnbhxvrvtnc1b2.jpg"
+    }
+      ,{
+      "id": 5,
+      "title": "Manali Adventure",
+      "description": "Experience the beauty of snow-capped mountains and valleys.",
+      "price": 15999,
+      "location": "Kashmir",
+      "rating": 4,
+       "day":6,
+      "night":5,
+       " duration": "6 Days / 5 Nights",
+      "image": "https://res.cloudinary.com/dr267iyg8/image/upload/v1750936669/maximtrip/sd6e01v96r02nzsxciit.jpg"
+    }
+  ]
+

@@ -1,29 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Holidays from './pages/Holidays'
+import Navbar from './components/Navbar';
+import { BrowserRouter , Routes, Route } from "react-router-dom";
 import './App.css'
-import Navbar from './components/Navbar'
-import Carousel from './components/Carousel'
-import HolidayCategory from './components/HolidayCategory'
-import TourCardsSection from './components/TourCardsSection'
-import PopularDestinations from './components/PopularDestination'
-import TravelBlogs from './components/TravelBlogs'
-import Footer from './components/Footer'
-import ChatButton from './components/ChatButton'
+import Footer from './components/Footer';
+import { HashRouter } from 'react-router-dom';
+import CategoryDetail from './pages/CategoryDetails';
+import PackageDetails from './pages/PackageDetails';
+import BlogDetails from './pages/BlogDetails';
+
+import DestinationDetails from './pages/DestinationDetails';
+
 
 function App() {
 
   return (
-    <>
-    <Navbar />
-    <Carousel/>
-    <HolidayCategory/>
-    <TourCardsSection/>
-    <PopularDestinations/>
-    <TravelBlogs/>
-    <Footer/>
-    <ChatButton/>
-    </>
+    
+      <HashRouter>
+        <Navbar  />
+      <Routes>
+        <Route path="/" element={<Holidays />} />
+        <Route path="/holidays" element={<Holidays />} />
+        <Route path="/category/:id" element={<CategoryDetail/>} />
+        <Route path="/packages/:id" element={<PackageDetails/>} />
+        <Route path="/destination/:id" element={<DestinationDetails/>} />
+        <Route path="/blog/:id" element={<BlogDetails/>} />
+      </Routes>
+        <Footer/>
+    </HashRouter>
+   
   )
 }
 
