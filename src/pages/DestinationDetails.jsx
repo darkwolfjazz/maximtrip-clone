@@ -22,7 +22,7 @@ export default function () {
     
       <div className="max-w-7xl mx-auto bg-gray-100  pb-8  ">
             <h1 className="text-3xl font-bold mt-4">{product.title}</h1>
-            <p className="text-sm text-gray-500 mt-5">23 Aug 2025</p>
+            <p className="text-sm text-gray-500 mt-5">28 Aug 2025</p>
      
             <div className="   rounded-2xl z-20 shadow-2xl  overflow-hidden mt-4 ">
             <img

@@ -33,20 +33,21 @@ export default function EnquiryPopup({ isOpen, onClose }) {
           &times;
         </button>
 
-        <h2 className="text-center mb-4 text-xl font-bold">Quick Enquiry</h2>
+        <h2 className="text-center mb-4 text-xl font-bold">Enquiry</h2>
 
         <form className="flex flex-col gap-3">
           <input type="text" placeholder="Destination" className="border p-2 rounded" />
           <input type="date" className="border p-2 rounded" />
           <select className="border p-2 rounded">
-            <option>Select Travellers</option>
+            <option>Select Number of Travellers</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
+            <option>4</option>
           </select>
-          <input type="text" placeholder="Full Name" className="border p-2 rounded" />
+          <input type="text" placeholder="Enter your Full Name" className="border p-2 rounded" />
           <input type="text" placeholder="Enter Mobile no." className="border p-2 rounded" />
-          <input type="email" placeholder="Email Address" className="border p-2 rounded" />
+          <input type="email" placeholder="Email your Address" className="border p-2 rounded" />
 
           <button
             type="submit"
